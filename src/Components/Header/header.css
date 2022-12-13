@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css?family=Kanit');
+
+
+.Header {
+    display: flex;
+    flex-direction: column;
+    
+    font-family: 'Kanit';
+    color: black;
+}
+
+.Header .top {
+    padding: 24px 160px;
+    font-size: 18px;
+}
+
+.Header .bottom {
+    padding: 64px 160px;
+    font-size: 48px;
+}

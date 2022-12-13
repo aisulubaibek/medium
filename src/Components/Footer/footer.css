@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css?family=Kanit');
+@import url('https://fonts.googleapis.com/css?family=Inter');
+
+.Footer {
+    display: flex;
+    flex-direction: column;
+    padding: 778px 160px 32px;
+}
+
+.Footer .top {
+    display: flex;
+    font-family: 'Inter';
+    font-size: 14px;
+    color: #081E34;
+    opacity: 0.5;
+    justify-content: flex-end;
+}
+
+.Footer .bottom {
+    margin-top: 42px;
+    display: flex;
+    font-family: 'Inter';
+    font-size: 14px;
+    color: #081E34;
+    justify-content: flex-end;
+}
