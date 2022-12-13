@@ -36,7 +36,7 @@ export default function FeedCard({feed}) {
 
             </div>
 
-            <img className='feed-img' src={require(`../../../Assets/laptopFeed.svg`).default} alt="some laptop"/>
+            <img className='feed-img' src={feed.img} alt="some laptop"/>
        </div>
     )
     

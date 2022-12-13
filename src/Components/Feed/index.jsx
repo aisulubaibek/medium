@@ -2,10 +2,10 @@ import FeedCard from "./FeedCard";
 import "./feed.css";
 import {feeds} from "../../data/feedData";
 
-export default function Feed(feeds) {
+export default function Feed() {
     return (
         <div className="Feed">
-            {[feeds].map((feed)=> (
+            {feeds.map((feed)=> (
                 <FeedCard key={feed.id} feed={feed}/>
             )   
             )}
